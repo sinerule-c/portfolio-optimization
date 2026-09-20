@@ -1,0 +1,4 @@
+Portfolio,Expected Return (%),Volatility (%),Sharpe Ratio,AAPL Weight (%),GLD Weight (%),JNJ Weight (%),JPM Weight (%),XOM Weight (%)
+Equal Weight,19.28,17.63,0.87,20.0,20.0,20.0,20.0,20.0
+Maximum Sharpe,20.47,14.55,1.13,19.75,64.47,0.0,13.05,2.72
+Minimum Volatility,16.38,12.7,0.97,3.12,56.24,31.15,6.27,3.22

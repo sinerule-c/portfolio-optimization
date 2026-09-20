@@ -54,52 +54,52 @@ The analysis covers January 2020 through December 2025.
 
 Daily percentage returns were calculated using:
 
-\[
+$$
 R_t = \frac{P_t}{P_{t-1}} - 1
-\]
+$$
 
 
 ### 3. Expected Annual Returns
 
 Historical mean daily returns were annualized using approximately 252 trading days:
 
-\[
+$$
 E(R_{annual}) = E(R_{daily}) \times 252
-\]
+$$
 
 
 ### 4. Annualized Volatility
 
 Daily return standard deviation was annualized using:
 
-\[
+$$
 \sigma_{annual} = \sigma_{daily}\sqrt{252}
-\]
+$$
 
 
 ### 5. Portfolio Risk
 
 Portfolio variance was calculated using the covariance matrix:
 
-\[
+$$
 \sigma_p^2 = w^T \Sigma w
-\]
+$$
 
 Portfolio volatility is therefore:
 
-\[
+$$
 \sigma_p = \sqrt{w^T \Sigma w}
-\]
+$$
 
 
 ### 6. Sharpe Ratio
 
 A 4% annual risk-free rate was assumed.
 
-\[
-Sharpe =
-\frac{R_p-R_f}{\sigma_p}
-\]
+$$
+\text{Sharpe Ratio} =
+\frac{R_p - R_f}{\sigma_p}
+$$
 
 
 ## Individual Asset Results
